@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#bg {
+    background-image: url("./imagenes/descarga.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.lola1, .lola2, .lola3, .lola4, .lola5 {
+    width: 100%;
+    height: auto;
+    margin-top: 70px;
+}
+section h2{
+    text-align: center;
+}
+.asistencia {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-size: 2rem;
+    color: #ffffff;
+    text-shadow: 2px 2px 2px #133df6;
+    margin-bottom: 1rem;
+}
+
+
+.botonW img {
+    width: 10rem;
+}
+
+.botonW {
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilos específicos para pantallas pequeñas (móviles) */
+@media (max-width: 768px) {
+    #bg {
+        height: auto; /* Permite que el contenido se ajuste al tamaño */
+        padding: 1rem;
+    }
+
+    .asistencia {
+        font-size: 1.5rem; /* Reduce el tamaño de la fuente */
+    }
+
+    .botonW img {
+        width: 8rem; /* Reduce el tamaño del botón de WhatsApp */
+    }
+}
+
+@media (max-width: 480px) {
+    .asistencia {
+        font-size: 1.2rem; /* Tamaño de fuente aún menor para pantallas muy pequeñas */
+    }
+
+    .botonW img {
+        width: 6rem; /* Ajusta el tamaño del botón de WhatsApp */
+    }
+}
