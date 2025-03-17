@@ -29,31 +29,36 @@ main {
     height: auto;
     margin-top: 20px;
     text-align: center;
+    margin-top: 60px;
 }
 
 .fecha{
     width: 46%;
     height: auto;
     margin-top: 20px;
-    text-align: center; 
+    text-align: center;
+    margin-top: 60px; 
 }
 .ubiRio{
     width: 46%;
     height: auto;
     margin-top: 20px;
     text-align: center; 
+    margin-top: 60px;
 }
 .vestimenta{
     width: 60%;
     height: auto;
     margin-top: 20px;
-    text-align: center; 
+    text-align: center;
+    margin-top: 60px; 
 }
 .alias{
     width: 80%;
     height: auto;
     margin-top: 20px;
-    text-align: center; 
+    text-align: center;
+    margin-top: 60px; 
 }
 
 .asistencia {
@@ -62,6 +67,7 @@ main {
     color: #000000;
     margin-bottom: 1rem;
     text-align: center;
+    margin-top: 60px;
 }
 
 
