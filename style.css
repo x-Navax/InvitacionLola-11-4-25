@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
 }
-#bg {
+/* #bg {
     background-image: url("./imagenes/descarga\ \(1\).jpg");
     background-size: cover;
     background-repeat: no-repeat;
-}
+} */
 header {
     display: flex;
     flex-direction: column; /* Asegura que los elementos estén uno debajo del otro */
@@ -33,28 +33,28 @@ main {
 }
 
 .fecha{
-    width: 46%;
+    width: 90%;
     height: auto;
     margin-top: 20px;
     text-align: center;
     margin-top: 60px; 
 }
 .ubiRio{
-    width: 46%;
+    width: 90%;
     height: auto;
     margin-top: 20px;
     text-align: center; 
     margin-top: 60px;
 }
 .vestimenta{
-    width: 60%;
+    width: 90%;
     height: auto;
     margin-top: 20px;
     text-align: center;
     margin-top: 60px; 
 }
 .alias{
-    width: 80%;
+    width: 90%;
     height: auto;
     margin-top: 20px;
     text-align: center;
@@ -65,9 +65,8 @@ main {
     font-family: "Edu AU VIC WA NT Hand", cursive;
     font-size: 2rem;
     color: #000000;
-    margin-bottom: 1rem;
     text-align: center;
-    margin-top: 60px;
+    margin-top: -280px;
 }
 
 
